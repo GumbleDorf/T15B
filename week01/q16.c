@@ -10,7 +10,7 @@ int sumList(List l) {
 	Node *tmp = l;
 	int sum = 0;
 	while (tmp != null) { 
-		sum = sum + n->value
+		sum = sum + tmp->value
 	}
 	return sum;
 }
