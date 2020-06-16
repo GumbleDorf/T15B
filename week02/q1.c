@@ -14,7 +14,21 @@ int length(List L) {
 }
 
 
-int lengthRecursive(List L) {
-
+int lengthR(List L) {
+    if (L == NULL) {
+        return 0;
+    } else {
+        return 1 + lengthR(L->next);
+    }
 }
+
+/*
+
+Base case: NULL list -> returns 0
+
+Recursive case: Current node + length of list - current node -> 
+returns length of list starting at next node
+
+
+*/
 

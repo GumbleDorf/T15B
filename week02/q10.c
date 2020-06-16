@@ -18,3 +18,12 @@ splitList(L):
 
 
 */
+
+/*
+
+    while not at end of list1:
+        while not at end of list2:
+            code
+
+
+*/

@@ -1,0 +1,28 @@
+
+while stack S is not empty:
+    var head = S.pop()
+    Q.enqueue(head)
+
+while queue Q is not empty:
+    var qhead = Q.dequeue()
+    S.push(qhead)
+
+foundFlag = false
+while stack S is not empty:
+    var check = S.pop()
+    if check == x:
+        foundFlag = true
+    Q.enqueue(check)
+
+while queue Q is not empty:
+    var qhead = Q.dequeue()
+    S.push(qhead)
+
+return foundFlag
+
+function f(number x, string y):
+
+
+
+
+    
