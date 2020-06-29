@@ -1,0 +1,63 @@
+-g flag: debugging symbols, use for gdb
+-O3 flag: compiler optimises for speed
+
+
+Makefile:
+
+end program: tw
+components: tw.o, Dict.o stemmer.o
+
+If either *.o files not found, go to the components in the makefile and individually make the .o file
+
+3.
+
+For every #include statement, it is included that many times
+
+#ifndef X   ----  If X is not defined
+#define X    -------- Once it is included once, it is defined
+Include this
+#endif
+
+Way of ensuring we only include one coyp of the .h file.
+
+Left rotate:
+
+take right child X, take right child's left subtree Y 
+
+Make Node X the new root, right subtree of old root becomes Y
+Left subtree of X becomes the old root
+
+Right rotate:
+
+Flipped
+
+Output orderings:
+
+L = Left subtree
+D = Root Node
+R = right subtree
+
+Infix: L D R
+
+Prefix: D L R
+
+Postfix: L R D
+
+Level: Each level of the tree left to right
+
+What kind of trees have the property that their infix output is the same as their prefix output?
+
+Linear trees (right degenerate tree = ordered linked list)
+
+Root
+    \
+    Node
+        \
+        Node
+    
+One node trees
+
+
+
+
+

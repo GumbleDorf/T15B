@@ -1,0 +1,8 @@
+C[i,j] = C[i,j] + A[i,k]·B[k,j]
+
+c[i,j] primitive
++ primitive
+* primitive
+
+
+
