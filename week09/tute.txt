@@ -1,0 +1,32 @@
+PSYC Adam
+MATH Adam
+COMP Jane
+PSYC Jane
+COMP John
+MATH John
+COMP Pete
+
+sorted = {} (0 )
+unsorted = {6,8,3,4,2} (5)
+
+sorted = {2} (1)
+unsorted = {8,3,4,6} (4)
+
+sorted = {2, 3} (2)
+unsorted = {8,4,6} (3)
+
+sorted = {2, 3, 4} (3)
+unsorted = {8,6} (2)
+
+sorted = {2, 3, 4, 6} (4)
+unsorted = {8} (1)
+
+sorted = {2, 3, 4, 6, 8} (5)
+unsorted = {} (0)
+
+Adaptive Bubble Sort
+
+int a[5] = {2,4,6,10,8}
+
+int a[5] = {2,4,6,8,10}
+

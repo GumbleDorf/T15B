@@ -1,0 +1,89 @@
+1.
+
+a. Keys are unsigned ints
+Suggestions: MAX_UINT, 0, unlikely value (or -1 if we don't use unsigned int as the array datatype)
+
+b. Keys are ints
+Suggestions: MAX_INT, -MAX_INT, -1, 0, (any number outside of int range)
+
+c. Keys are strings:
+Suggestions: Empty String
+
+d. Pointers to items:
+NULL Pointer
+
+We want to differentiate between these
+[Item, NoItem]
+
+2. 
+
+cat
+act
+
+3.
+
+6, 5, coprime
+
+Bezouts identity
+
+for two coprime numbers a,b
+
+q*a*x + q*b*y  = q
+
+We want to use prime numbers in hash functions to take advantage of this
+
+4.
+
+Linear probing: Start at hashed index, then stored at next available slot
+
+Insert: 1, 2, 3, 4, 5, 6, 7, 8 
+[-1, 1, 2, 3, 4, 5, 6, 7, 8, -1]
+
+Insert: 15, 6, 20, 3, 17, 14, 33, 5, 10, 7 
+[20, 10,7,3,14,15,6,17,33, 5]
+
+Insert: 10, 20, 30....
+[10, 20, 30, ...]
+
+5.
+
+Worst Case:
+All values hash the same
+
+Best Case:
+Every hash is unique
+
+Assume that hash function produces fairly unique values
+
+For table N=k/2, each hashed value will have list L = 2
+
+
+6.
+
+h2(x) = (x%3) + 1
+Double Hashing: if collision detected, increment up array by h2(x) until free spot is found 
+
+insert: 11  16  27  35  22  20  15  24  29  19  13
+[11, 29, 35, 24, 22 ,16, 27, 15, 19, 20, 13]
+
+//7.
+
+
+8.
+
+Array of length N, where node i has children 2*i and 2*i + 1
+a[-1, 15, 6, 13, 3, 5, 10, -1, -1, -1]
+is a[i] > a[i/2];
+nitems = 7
+parent of node i = i/2;
+
+9.
+
+10.
+
+
+
+11.
+
+12.
+
