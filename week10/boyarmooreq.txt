@@ -1,0 +1,43 @@
+Example BM Algo search
+
+
+stringsearching
+search
+
+
+Text:
+xywapaswyqxywapaswyy
+
+Pattern:
+          xywapaswyy
+
+Find last occurence function:
+
+l(x) = 0
+l(y) = 9
+l(w) = 7
+l(a) = 5
+l(p) = 4
+l(s) = 6
+
+
+Map out search
+
+Text:
+ABCACBBDABCADD
+
+Pattern:
+ABCAD
+
+Last Occurrence Function:
+
+l(A) = 3
+l(B) = 1
+l(C) = 2
+l(D) = 4
+
+ABCACBBDABCADD
+        ABCAD
+
+Average Case: O(n + m)
+Worst Case: O(n*m)

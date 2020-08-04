@@ -1,0 +1,40 @@
+Build Failure function:
+
+cgtacgttcgtac
+
+Failure function:
+
+f[0] = 0
+f[1] = 0
+f[2] = 0
+f[3] = 0
+f[4] = 1
+f[5] = 2
+f[6] = 3
+f[7] = 0
+f[8] = 1
+f[9] = 2
+f[10] = 3
+f[11] = 4
+f[12] = 5
+
+
+Show search for:
+
+Text:
+aaabaadaabaaa
+
+Pattern:
+aabaaa
+
+Failure Function:
+
+f[0] = 0
+f[1] = 1
+f[2] = 0
+f[3] = 1
+f[4] = 2
+f[5] = 2
+
+aaabaadaabaaa
+       aabaaa

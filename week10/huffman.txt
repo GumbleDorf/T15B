@@ -1,0 +1,10 @@
+Provide huffman encoding for
+
+ababbcdcbaabcacbbbs
+
+a: 5
+b: 8
+c: 4
+d: 1
+s: 1
+
