@@ -8,3 +8,27 @@ c: 4
 d: 1
 s: 1
 
+Encode into a tree:
+
+
+		O
+	       / \
+	      O   b
+	     / \
+	    O	a    
+	   / \
+	  c   O
+	     / \
+	    d   s
+	     
+	     
+When we traverse the tree we translate the children into 1 or 0 depending on if the are left children or right children. Example:
+
+a encodes as 01
+b encodes as 1
+c encodes as 000
+d encodes as 0010
+s encodes as 0011
+
+Idea is to compress each character down into a very small series of bytes (as opposed to 8 bit length of an ASCII character)
+
